@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_places"
+        android:enabled="true"
+        android:icon="@drawable/ic_place"
+        android:title="@string/nav_place"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_excursions"
+        android:enabled="true"
+        android:icon="@drawable/ic_excursions"
+        android:title="@string/nav_excursions"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_cabinet"
+        android:enabled="true"
+        android:icon="@drawable/ic_cabinet"
+        android:title="@string/nav_cabinet"
+        app:showAsAction="ifRoom" />
+</menu>

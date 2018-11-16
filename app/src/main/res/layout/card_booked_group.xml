@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    android:layout_margin="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bookedExcursionName"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Экскурсия по Казани"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_date"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/bookedExcursionName"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/bookedExcrusionPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="500Р"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bookedExcursionGeoposition"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/bookedExcursionDate"
+            app:layout_constraintLeft_toRightOf="@+id/imageView2"
+            android:layout_marginLeft="8dp" />
+
+        <TextView
+            android:id="@+id/bookedExcursionDate"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/bookedExcursionName"
+            app:layout_constraintLeft_toRightOf="@+id/imageView"
+            android:layout_marginLeft="8dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_location"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/bookedExcursionDate"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/bookedExcursionButton"
+            android:layout_width="108dp"
+            android:layout_height="31dp"
+            android:text="Оплатить"
+            android:textColor="@android:color/white"
+            android:background= "#FF5621"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/bookedExcursionGeoposition"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/bookedGroupSession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintLeft_toRightOf="@+id/bookedExcursionButton"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/bookedExcursionGeoposition"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

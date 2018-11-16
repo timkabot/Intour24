@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">InTour24</string>
+    <string name="sign_search_menu">Search</string>
+    <string name="card_number">Card number</string>
+    <string name="holder_name">Card holder name</string>
+    <string name="expired_date">dd/yy</string>
+
+    <!-- Excursion Screen -->
+    <string name="book_button">Book</string>
+    <string name="cost_text">Cost</string>
+    <string name="cost_includes">Cost Includes:</string>
+    <string name="description">Description</string>
+    <string name="start_place">Start Place</string>
+    <string name="bus_category">Bus tour</string>
+    <string name="bus_walk_category">Bus and walk tour</string>
+    <string name="walk_category">Walk tour</string>
+    <string name="guide_prof">Professional guide</string>
+    <string name="food_includes">Includes food</string>
+    <string name="duration_hours">h.</string>
+    <string name="BASE_URL">http://188.130.155.89/api/</string>
+    <string name="BASE_URL_STATIC">http://188.130.155.89/api/static/img</string>
+    <string name="service_unavailable">Cannot connect to Google Play Services</string>
+
+    <!-- Bottom navigation menu -->
+    <string name="nav_place">Places</string>
+    <string name="nav_excursions">My excursions</string>
+    <string name="nav_cabinet">Personal account</string>
+
+    <!-- Toolbar -->
+    <string name="sign_toolbar">Sights</string>
+    <string name="cabinet_toolbar">Personal cabinet</string>
+    <string name="excursions_toolbar">My excursions</string>
+
+    <string name="paid_excursions">Paid</string>
+    <string name="booked_excursions">Booked</string>
+
+    <!-- Authentication -->
+    <string name="not_registered">You are not registered</string>
+    <string name="register_please">Register to book excursion and get information about sales</string>
+    <string name="register_button">Sign up</string>
+    <string name="login_button">Sign in</string>
+
+    <!--Bank Information-->
+    <string name="TERMINAL_KEY">1496395016617DEMO</string>
+    <string name ="bankPassword">ly5maikxshvbmacs</string>
+    <string name="PUBLIC_KEY">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv5yse9ka3ZQE0feuGtem
+    Yv3IqOlLck8zHUM7lTr0za6lXTszRSXfUO7jMb+L5C7e2QNFs+7sIX2OQJ6a+HG8
+    kr+jwJ4tS3cVsWtd9NXpsU40PE4MeNr5RqiNXjcDxA+L4OsEm/BlyFOEOh2epGyY
+    Ud5/iO3OiQFRNicomT2saQYAeqIwuELPs1XpLk9HLx5qPbm8fRrQhjeUD5TLO8b+
+    4yCnObe8vy/BMUwBfq+ieWADIjwWCMp2KTpMGLz48qnaD9kdrYJ0iyHqzb2mkDhd
+    Izkim24A3lWoYitJCBrrB2xM05sm9+OdCI1f7nPNJbl5URHobSwR94IRGT7CJcUj
+    vwIDAQAB
+    </string>
+    <string name="adult_price_tag">Adult</string>
+    <string name="baby_price_tag">Under 6 years</string>
+    <string name="child_price_tag">7-12 years</string>
+    <string name="free_price">free</string>
+    <string name="name_hint">Name</string>
+    <string name="phone_number_hint">79179065733</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="sign_in_title">Sign into account</string>
+    <string name="sign_in_toolbar">Sign into account</string>
+    <string name="sign_up_button">Registration</string>
+    <string name="sign_up_title">Registration</string>
+    <string name="testDescription" translatable="false"></string>
+    <string name="hello_text">Рады видеть Вас в приложении</string>
+    <string name="bye_text">Будем рады увидеть Вас снова</string>
+    <string name="accept_number">Подтвердить</string>
+    <string name="accept_text">Введите 6-значный код, отправленный на Ваш номер:</string>
+    <string name="send_again_button">Отправить снова</string>
+    <string name="new_data">Новые данные</string>
+    <string name="change_data_button">Изменить</string>
+    <string name="wrong_account">Аккаунта не существует</string>
+    <string name="wrong_phone">Введен некорректный номер</string>
+
+
+    <!-- Network error -->
+    <string name="retry_btn">Retry</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_internet_info">For booking please retry</string>
+
+    <!-- Small Excursion Card -->
+    <string name="hours_shorted">h</string>
+
+
+    <!-- Booking screen -->
+    <string name="about_excursion">About excursion</string>
+    <string name="booking_data">Booking data</string>
+    <string name="adult_count">Adult</string>
+    <string name="child_count">Children under 12</string>
+    <string name="total_cost">Total cost</string>
+    <string name="card_payment">Pay with card</string>
+    <string name="cash_payment">Pay with cash</string>
+    <string name="conditions">Нажимая «Оплатить», я согласен на обработкуперсональных данных,
+        принимаю Условия предоставления услуги</string>
+    <string name="pay_button">Pay</string>
+    <string name="phone_name">Phone number</string>
+    <string name="phone_confirm">Confirm</string>
+    <string name="pay_button_card">Pay</string>
+    <string name="money">rubles</string>
+    <string name="book">Book</string>
+    <string name="rubles">₽</string>
+    <string name="change_user">Change name</string>
+    <string name="logout_button">Logout</string>
+    <string name="repeat_account">Ew</string>
+    <string name="sign_up_toolbar">Registration</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="more">More</string>
+    <string name="returnMoney">Get money back</string>
+    <string name="adult">Adult</string>
+    <string name="time">h</string>
+
+</resources>

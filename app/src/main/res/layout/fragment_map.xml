@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/fullMapButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:background="@android:color/transparent"/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/mapViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:uiZoomGestures="false"
+        map:uiScrollGestures="false"
+        map:uiRotateGestures="false"
+        map:uiTiltGestures="false"
+        tools:context="com.innopolis.intour24.view.Impl.MapFragmentImpl"/>
+
+</RelativeLayout>

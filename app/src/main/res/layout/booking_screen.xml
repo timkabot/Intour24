@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Excursion Picture -->
+                <ImageView
+                    android:elevation="8dp"
+                    android:id="@+id/tourView"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sight_picture"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/logo_color" />
+
+
+                <!-- Excursion Name -->
+                <TextView
+                    android:id="@+id/excursionName"
+                    android:layout_width="328dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="26dp"
+                    android:text="TextView"
+                    style="@style/WhiteHeading"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
+                <!-- Excursion Category-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true">
+
+                    <ImageView
+                        android:id="@+id/categoryLogoWhite"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+
+                    <TextView
+                        android:id="@+id/excursionCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_weight="0.10"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/timeAndDuration"
+                    style="@style/NormalText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="17dp"
+                    android:drawableLeft="@drawable/ic_time_black"
+                    android:text="TextView" />
+
+            </RelativeLayout>
+
+            <!-- About excursion heading -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/aboutExcursionDescription"
+                    style="@style/HeadingTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_excursion"
+                    android:paddingTop="0dp" />
+
+                <LinearLayout
+                    android:id="@+id/propertiesList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/companyLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:padding="2dp"
+                        app:srcCompat="@drawable/ic_arrow" />
+
+                    <TextView
+                        android:id="@+id/company"
+                        style="@style/NormalText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Company name here"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/bookingDataHeading"
+                    style="@style/HeadingTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/booking_data" />
+
+                <TextView
+                    android:id="@+id/personalInfo"
+                    style="@style/NormalText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_contact"
+                    android:text="Here will be data" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:id="@+id/newUserForm">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:weightSum="3"
+                        android:focusableInTouchMode="true"
+                        android:focusable="true">
+
+                        <TextView
+                            android:id="@+id/phoneNumberHint"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/phone_name"
+                            android:layout_weight="1"
+
+                            style="@style/HintText"/>
+
+                            <EditText
+                                android:id="@+id/phoneNumberET"
+                                android:layout_marginTop="4dp"
+                                android:layout_weight="2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:inputType="numberDecimal" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/confirmButton"
+                        style="@style/ButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+
+                        android:text="@string/phone_confirm"
+                        android:layout_marginBottom="8dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingRight="12dp">
+
+                        <TextView
+                            android:id="@+id/adultAgeHint"
+                            style="@style/HintText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/adult_count" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <!--android:background="@drawable/bottom_border"-->
+
+
+                            <Spinner
+                                android:id="@+id/adultSpinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:id="@+id/adultForEachPrice"
+                                style="@style/NormalText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="3"
+                                android:gravity="right|center"
+                                android:text="TextView" />
+
+                        </LinearLayout>
+
+                        <!-- Underscope separator -->
+                        <View
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/pay_info_background"
+                            android:layout_height="1dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            style="@style/HintText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/child_count" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <!--android:background="@drawable/bottom_border"-->
+
+
+                            <Spinner
+                                android:id="@+id/childSpinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:id="@+id/childrenForEachPrice"
+                                style="@style/NormalText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="3"
+                                android:gravity="right|center"
+                                android:text="TextView" />
+
+                        </LinearLayout>
+
+                        <!-- Underscope separator -->
+                        <View
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/pay_info_background"
+                            android:layout_height="1dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/totalCostHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_cost"
+                    style="@style/HeadingTextView"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/cardPayRB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_payment" />
+
+                    <RadioButton
+                        android:id="@+id/cashPayRB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cash_payment" />
+
+                </RadioGroup>
+
+
+
+                <CheckBox
+                    android:id="@+id/conditionCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/conditions" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/payButton"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="@string/pay_button"
+                android:background="@drawable/background_button"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

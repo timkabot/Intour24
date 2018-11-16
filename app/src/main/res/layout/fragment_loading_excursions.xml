@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/excursionsLoadingBackground"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/findExcursionText"
+            android:layout_marginLeft = "8dp"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal = "true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Поиск экскурсий на выбранную дату" />
+
+        <ImageView
+            android:id="@+id/busIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom = "true"
+            app:srcCompat="@drawable/bustourist" />
+
+    <ImageView
+        android:layout_toLeftOf  = "@id/findExcursionText"
+        android:id="@+id/searchLoadingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/ic_search" />
+
+    <ImageView
+        android:id="@+id/roadIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/busIcon"
+        app:srcCompat="@drawable/road" />
+</RelativeLayout>

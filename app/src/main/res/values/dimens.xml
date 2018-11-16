@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="signs_catalog_padding">8dp</dimen>
+    <dimen name="sign_card_margin_text">8dp</dimen>
+    <dimen name="sign_card_title_text">17sp</dimen>
+    <dimen name="sign_card_price_text">14sp</dimen>
+    <dimen name="sign_card_margin">10dp</dimen>
+    <dimen name="sight_picture">200dp</dimen>
+    <dimen name="sight_inner_margin">8dp</dimen>
+</resources>

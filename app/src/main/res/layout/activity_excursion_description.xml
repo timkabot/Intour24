@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.innopolis.intour24.view.Impl.GroupDescriptionActivity">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bookButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/excursionNameTextView"
+                    style="@style/HeadingTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="0dp"
+                    android:text="Name"
+                    android:textSize="20dp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <!-- Time and Duration Decrease to 20% -->
+                        <TextView
+                            android:id="@+id/timeDurationTextView"
+                            style="@style/NormalText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:drawableLeft="@drawable/ic_time_black"
+                            android:text="TextView" />
+
+                        <!-- Organization company -->
+                        <TextView
+                            android:id="@+id/organizationCompanyTextView"
+                            style="@style/NormalText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <!-- Category of Transportation -->
+                        <TextView
+                            android:id="@+id/categoryOfTransportTextView"
+                            style="@style/NormalText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/costHeaderTextView"
+                    style="@style/HeadingTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cost_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+
+                    android:weightSum="3">
+
+                    <!-- Cost -->
+                    <TextView
+                        android:id="@+id/costTextView"
+                        style="@style/NormalText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_price_black"
+                        android:text="100" />
+
+                    <!-- Cost for children -->
+                    <TextView
+                        android:id="@+id/childCostTextView"
+                        style="@style/NormalText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_baby_black"
+                        android:text="a lot of random text" />
+
+                    <!-- Cost Babies -->
+                    <TextView
+                        android:id="@+id/babyCostTextView"
+                        style="@style/NormalText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_baby_black"
+                        android:text="a lot of random text"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/includeInCostTextView"
+                    style="@style/HeadingTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/cost_includes" />
+
+                <TableLayout
+                    android:id="@+id/costIncludedTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableLayout>
+
+                <TextView
+                    android:id="@+id/deskTextView"
+                    style="@style/HeadingTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description" />
+
+
+                <at.blogc.android.views.ExpandableTextView
+                    android:id="@+id/descriptionExpandableTextView"
+                    style="@style/NormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:text="Copyright 2016 Cliff Ophalvens (Blogc.at)."
+                    app:animation_duration="400" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/startPlaceTextView"
+                    style="@style/HeadingTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/start_place" />
+
+                <TextView
+                    android:id="@+id/addressTextView"
+                    style="@style/NormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address" />
+
+                <fragment
+                    android:id="@+id/mapFragment"
+                    android:name="com.google.android.gms.maps.MapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bookButton"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:text="Book" />
+
+</RelativeLayout>

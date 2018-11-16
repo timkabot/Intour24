@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InTour24</string>
+    <string name="sign_search_menu">Поиск</string>
+    <string name="card_number">Номер карты</string>
+    <string name="holder_name">Имя держателя карты</string>
+    <string name="expired_date">Дата</string>
+
+    <!-- Excursion Screen -->
+    <string name="book_button">Забронировать</string>
+    <string name="cost_text">Стоимость</string>
+    <string name="cost_includes">В стоимость входит:</string>
+    <string name="description">Описание экскурсии</string>
+    <string name="start_place">Место отправления</string>
+    <string name="bus_category">Автобусная экскурсия</string>
+    <string name="bus_walk_category">Пешеходная и автобусная экскурсия</string>
+    <string name="walk_category">Пешеходная экскурсия</string>
+    <string name="guide_prof">Профессиональный гид</string>
+    <string name="food_includes">Питание</string>
+    <string name="duration_hours">ч.</string>
+
+    <!-- Bottom navigation menu -->
+    <string name="nav_place">Места</string>
+    <string name="nav_excursions">Мои экскурсии</string>
+    <string name="nav_cabinet">Личный кабинет</string>
+
+    <!-- Toolbar -->
+    <string name="sign_toolbar">Достопримечательности</string>
+    <string name="cabinet_toolbar">Личный кабинет</string>
+    <string name="excursions_toolbar">Мои экскурсии</string>
+
+    <string name="paid_excursions">Оплаченные</string>
+    <string name="booked_excursions">Забронированные</string>
+
+    <!-- Authentication -->
+    <string name="not_registered">Вы не зарегистрированы</string>
+    <string name="register_please">Зарегистрируйтесь, чтобы бронировать экскурсии в один клик и получать информацию о скидках и акциях</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="change_user">Изменить имя и телефон</string>
+    <string name="login_button">Войти в аккаунт</string>
+    <string name="logout_button">Выйти</string>
+    <string name="sign_in_toolbar">Вход в аккаунт</string>
+    <string name="sign_up_toolbar">Регистрация</string>
+    <string name="sign_in_title">Вход в аккаунт</string>
+    <string name="sign_up_title">Регистрация</string>
+    <string name="phone_number_hint">79179065733</string>
+    <string name="name_hint">Имя</string>
+    <string name="sign_in_button">Войти</string>
+    <string name="sign_up_button">Зарегистрироваться</string>
+    <string name="hello_text">Рады видеть Вас в приложении</string>
+    <string name="bye_text">Будем рады увидеть Вас снова</string>
+    <string name="accept_number">Подтвердить</string>
+    <string name="accept_text">Введите 6-значный код, отправленный на Ваш номер:</string>
+    <string name="send_again_button">Отправить снова</string>
+    <string name="new_data">Новые данные</string>
+    <string name="change_data_button">Изменить</string>
+    <string name="wrong_account">Аккаунта не существует, зарегистрируйтесь</string>
+    <string name="repeat_account">Пользователь с таким номером уже существует</string>
+
+    <!-- Network error -->
+    <string name="retry_btn">Повторить</string>
+    <string name="no_internet_connection">Нет подключения к сети</string>
+    <string name="no_internet_info">Для бронирования экскурсии повторите подключение</string>
+
+    <!-- Booking screen -->
+    <string name="about_excursion">Об экскурсии</string>
+    <string name="booking_data">Данные бронирования</string>
+    <string name="adult_count">Взрослые</string>
+    <string name="child_count">Дети до 12 лет</string>
+    <string name="total_cost">Общая стоимость: </string>
+    <string name="card_payment">Оплатить картой</string>
+    <string name="cash_payment">Оплатить наличными</string>
+    <string name="pay_button">Оплатить</string>
+    <string name="phone_name">Номер телефона</string>
+    <string name="phone_confirm">Подтвердить</string>
+    <string name="pay_button_card">Оплатить</string>
+    <string name="money">рублей</string>
+    <string name="book">Забронировать</string>
+
+    <string name="BASE_URL">http://188.130.155.89/api/</string>
+    <string name="BASE_URL_STATIC">http://188.130.155.89/api/static/img</string>
+    <string name="PUBLIC_KEY">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv5yse9ka3ZQE0feuGtem     Yv3IqOlLck8zHUM7lTr0za6lXTszRSXfUO7jMb+L5C7e2QNFs+7sIX2OQJ6a+HG8     kr+jwJ4tS3cVsWtd9NXpsU40PE4MeNr5RqiNXjcDxA+L4OsEm/BlyFOEOh2epGyY     Ud5/iO3OiQFRNicomT2saQYAeqIwuELPs1XpLk9HLx5qPbm8fRrQhjeUD5TLO8b+     4yCnObe8vy/BMUwBfq+ieWADIjwWCMp2KTpMGLz48qnaD9kdrYJ0iyHqzb2mkDhd     Izkim24A3lWoYitJCBrrB2xM05sm9+OdCI1f7nPNJbl5URHobSwR94IRGT7CJcUj     vwIDAQAB</string>
+    <string name="TERMINAL_KEY">1496395016617DEMO</string>
+    <string name="bankPassword">ly5maikxshvbmacs</string>
+    <string name="service_unavailable">Нету интернета</string>
+
+    <!-- Small Excursion Card -->
+    <string name="hours_shorted">ч</string>
+    <string name="adult_price_tag">Взрослые</string>
+    <string name="baby_price_tag">До 6 лет</string>
+
+
+    <string name="welcome">Добрый день</string>
+    <string name="more">Подробнее</string>
+    <string name="returnMoney">Вернуть деньги</string>
+    <string name="adult">Взрослый</string>
+    <string name="time">ч</string>
+    <string name="child_price_tag">7-12 лет</string>
+    <string name="conditions">Pushing this button you accept the license agreements</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5621</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F8E71C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="signInfo">#270900</color>
+    <color name="black">#000000</color>
+    <color name="textColor">#270900</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="black_alpha">#40000000</color>
+    <color name="excursionsLoadingBackground">#daf6ff</color>
+    <color name="background_color_network">#270901</color>
+    <color name="deactivated_button">#f37654</color>
+    <color name="activated_button">#FF5621</color>
+    <color name="wrong_format">#ff9191</color>
+    <color name="group_list_background">#F5F5F5</color>
+</resources>

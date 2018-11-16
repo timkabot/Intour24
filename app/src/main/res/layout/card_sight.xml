@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/sign_cardview"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="195dp"
+                                    android:orientation="vertical"
+                                    card_view:cardCornerRadius="0dp"
+    android:background="@drawable/background_toolbar_translucent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sight_card_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/sight_card_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1200-1600₽"
+            android:layout_alignParentRight="true"
+            android:paddingTop="@dimen/sign_card_margin_text"
+            android:paddingRight="@dimen/sign_card_margin_text"
+            android:textSize="@dimen/sign_card_price_text"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/sight_card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/sign_card_title_text"
+            android:paddingLeft="@dimen/sign_card_margin_text"
+            android:paddingBottom="@dimen/sign_card_margin_text"
+            android:text="Град Свияжск"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
